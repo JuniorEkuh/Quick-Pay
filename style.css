@@ -280,11 +280,11 @@ body.dark .switch::before {
 }
 
 .home {
-    /* background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(./img/laptop\ bg.png);
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(./img/laptop\ bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed; */
+    background-attachment: fixed;
     position: absolute;
     top: 0;
     top: 0;
