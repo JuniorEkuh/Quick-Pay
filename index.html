@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>QuickPay</title> 
+</head>
+<body onload="initialize()">
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="./img/logo.png" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">QuickPay</span>
+                    <span class="profession">SoftWare Engineer</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-help-circle' ></i>
+                            <span class="text nav-text">Help</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-dots-horizontal-rounded'></i>
+                            <span class="text nav-text">About</span>
+                        </a>
+                    </li>
+
+                
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home">
+        <div class="text">Welcome To Quick Pay</div>
+        <p>Short Code Generator For All Your MTN Mobile Money Transactions</p>
+
+        <div class="dialer-form">
+            <h1>Enter Transfer details</h1>
+            <form action="#" method="get">
+                <label class="cls1" for="receiver" class="form-label">Receiver phone number:</label>
+                <input type="tel" name="tel" required id="receiver" placeholder="E.g 679705673">
+                <br><br>
+                <label class="cls1" for="amount">Amount:</label>
+                <input type="number" required name="number" id="amount" placeholder="E.g 2000" step="1">
+                <br><br>
+                 <button type="submit" id="pay-btn">PAY</button>
+                 <button type="reset" class="btn">Clear</button>
+            </form>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
