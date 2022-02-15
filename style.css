@@ -280,24 +280,24 @@ body.dark .switch::before {
 }
 
 .home {
-    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(./img/laptop\ bg.png);
+    /* background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(./img/laptop\ bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     position: absolute;
     top: 0;
     top: 0;
     left: 250px;
     height: 100vh;
     width: calc(100% - 250px);
-    background-color: var(--body-color);
+     background-color: var(--body-color);
     transition: var(--tran-05);
 }
 .home .text {
     font-size: 30px;
     font-weight: 500;
-    color: white;
+    color: black;
     padding: 12px 60px;
 }
 
@@ -331,6 +331,10 @@ body.dark .switch::before {
     border: 0;
     outline: none;
     border-radius: 10px;
+}
+
+.dialer-form h1 {
+    color: black;
 }
 
 
@@ -375,5 +379,9 @@ body.dark .switch::before {
     width: calc(100% - 78px);
 }
 body.dark .home .text {
-    color: var(--text-color);
+    color: white;    /*  var(--text-color) */
+}
+
+body.dark .dialer-form h1 {
+    color: white;
 }
