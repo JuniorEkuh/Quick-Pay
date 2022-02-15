@@ -295,14 +295,14 @@ body.dark .switch::before {
     transition: var(--tran-05);
 }
 .home .text {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     color: black;
     padding: 12px 60px;
 }
 
 .home p {
-    font-size: 1.5rem;
+    font-size: 15px;
     letter-spacing: 1px;
     line-height: 25px;
     color: var(--text-color);
@@ -320,7 +320,7 @@ body.dark .switch::before {
 
 
 .cls1 {
-    font-size: 20px;
+    font-size: 15px;
     margin: 15px 0;
 }
 
@@ -335,6 +335,8 @@ body.dark .switch::before {
 
 .dialer-form h1 {
     color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 
