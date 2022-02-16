@@ -191,11 +191,9 @@ body {
   color: black;
   padding: 20px 12px;
 }
-@media (max-width: 420px) {
-  .sidebar.close .nav-links li .sub-menu {
-    display: none;
-  }
-}
+
+
+
 
 
 .home-section .text {
