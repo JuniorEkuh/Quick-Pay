@@ -1,65 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Quick Pay</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quick | Pay</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://kit.fontawesome.com/08753bed7e.js" crossorigin="anonymous"></script>
+    </head>
 <body onload="initialize()">
-  <div class="sidebar close">
-    <div class="logo-details">
-      <i class='bx bx-money'></i>
-      <span class="logo_name">Quick Pay</span>
+    <div class="wrapper">
+        <input type="checkbox" id="btn" hidden>
+        <label for="btn" class="menu-btn">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+        </label>
+        <nav id="sidebar">
+            <div class="title">Quick Pay</div>
+            <ul class="list-items">
+                <li><a href="./help.html"><i class="fa-solid fa-circle-question"></i>Help</a></li>
+                <li><a href="./about.html"><i class="fa-solid fa-circle-info"></i>About</a></li>
+            </ul>
+        </nav>
     </div>
-    
-    <ul class="nav-links">
-      <li>
-        <a href="./help.html">
-          <i class='bx bx-help-circle' ></i>
-          <span class="link_name">Help</span>
-        </a>
-        <ul class="sub-menu blank">
-          <li><a class="link_name" href="./help.html">Help</a></li>
-        </ul>
-      </li>
-      <li>
-        <div class="iocn-link">
-          <a href="./about.html">
-            <i class='bx bx-dots-horizontal-rounded'></i>
-            <span class="link_name">About</span>
-          </a>
+
+
+    <section class="home-section">
+        <div class="home-content">
+            <h1>Quick Pay</h1>
+          </div>
+        <div class="dialer-form">
+            <p>Short Code Generator For All Your MTN Mobile Money Transactions.</p>
+            <h2>Enter Transfer Details</h2>
+            <form action="#" method="get" class="input-section">
+                <label for="receiver" class="form-label">Receiver phone number:</label>
+                <input type="tel" name="tel" required id="receiver" placeholder="E.g 679705673">
+                <br><br>
+                <label for="amount">Amount:</label>
+                <input type="number" required name="number" id="amount" placeholder="E.g 2000" step="1">
+                <br><br>
+                <button type="submit" id="pay-btn">PAY</button>
+                <button type="reset" class="btn-clear">Clear</button>
+            </form>
         </div>
-        <ul class="sub-menu">
-          <li><a class="link_name" href="./about.html">About</a></li>
-        </ul>
-      </li>
-    </div>
-  <section class="home-section">
-    <div class="home-content">
-      <i class='bx bx-menu' ></i>
-      <span class="text">Welcome To Quick Pay</span>
-    </div>
-
-
-    <div class="dialer-form">
-      <p>Short Code Generator For All Your MTN Mobile Money Transactions</p>
-      <h1>Enter Transfer details</h1>
-      <form action="#" method="get">
-          <label class="cls1" for="receiver" class="form-label">Receiver phone number:</label>
-          <input type="tel" name="tel" required id="receiver" placeholder="E.g 679705673">
-          <br><br>
-          <label class="cls1" for="amount">Amount:</label>
-          <input type="number" required name="number" id="amount" placeholder="E.g 2000" step="1">
-          <br><br>
-           <button type="submit" id="pay-btn">PAY</button>
-           <button type="reset" class="btn">Clear</button>
-      </form>
-  </div>
-  </section>
-
-  <script src="./app.js"></script>
-
+    </section>
+    <script src="./app.js"></script>
 </body>
 </html>
