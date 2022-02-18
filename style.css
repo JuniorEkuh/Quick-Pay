@@ -232,3 +232,61 @@ body {
     border-bottom: 1px solid transparent;
     box-shadow: 0 0 10px 3px #222;
 }
+
+
+/* help section */
+
+.container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    margin: 20px 15px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    box-shadow: 3px 3px 10px 3px #222;
+}
+
+.container h1 {
+    color: #11101d;
+    text-transform: uppercase;
+    border-bottom: 1px solid #222;
+}
+
+.container h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.container p {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+
+.send-now button {
+    float: right;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 15px;
+    border: 0;
+    width: 150px;
+    height: 49px;
+    outline: none;
+    color: black;
+    background-color: #18ffff;
+    text-transform: uppercase;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 0 10px 3px #222;
+}
+
