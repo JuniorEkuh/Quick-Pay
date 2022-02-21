@@ -156,7 +156,7 @@ body {
 }
 
 .home-section .dialer-form p {
-    padding-top: 10px;
+    padding-top: 30px;
     font-weight: 500;
     font-size: larger;
     text-align: center;
@@ -164,7 +164,7 @@ body {
 
 
 .home-section .dialer-form h2 {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 15px;
     font-weight: bolder;
     font-size: xx-large;
@@ -186,7 +186,7 @@ body {
     font-size: 16px;
     width: 100%;
     padding: 15px 10px;
-    margin-top: 10px;
+    margin-top: 15px;
     border: 0;
     outline: none;
     border-radius: 10px;
