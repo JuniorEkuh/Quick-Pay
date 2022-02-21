@@ -290,3 +290,11 @@ body {
     box-shadow: 0 0 10px 3px #222;
 }
 
+
+
+/* about */
+
+
+ .container-about h1 {
+     border-bottom: 1px solid #222;
+ }
