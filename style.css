@@ -190,9 +190,9 @@ body {
     border: 0;
     outline: none;
     border-radius: 10px;
-    border-top: 1px solid transparent;
+    /* border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
-    box-shadow: 0 0 10px 3px #222;
+    box-shadow: 0 0 10px 3px #222; */
 }
 
 .home-section .dialer-form .input-section button {
@@ -209,9 +209,9 @@ body {
     color: black;
     background-color: #18ffff;
     text-transform: uppercase;
-    border-top: 1px solid transparent;
+    /* border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
-    box-shadow: 0 0 10px 3px #222;
+    box-shadow: 0 0 10px 3px #222; */
 }
 
 .home-section .dialer-form .input-section .btn-clear {
@@ -228,9 +228,9 @@ body {
     color: black;
     background-color: white;
     text-transform: uppercase;
-    border-top: 1px solid transparent;
+    /* border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
-    box-shadow: 0 0 10px 3px #222;
+    box-shadow: 0 0 10px 3px #222; */
 }
 
 
