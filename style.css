@@ -235,12 +235,57 @@ body {
 
 
 /* help section */
+#nav-bar {
+    position: relative;
+    width: 100%;
+    background-color: #11101d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 8vw;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+#nav-bar h1 {
+    color: white;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+#nav-bar .navigation li {
+    display: inline;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#nav-bar .navigation li {
+    list-style: none;
+    margin-left: 15px;
+}
+
+#nav-bar .navigation li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+#nav-bar .navigation li a:hover{
+    color: sandybrown;
+}
+
+
+/* how it works */
 
 .container {
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding: 15px 0;
+    padding: 50px 0;
     margin: 20px 15px;
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
